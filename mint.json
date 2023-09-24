@@ -1,34 +1,34 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "IAND",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/dark.png",
+    "light": "/logo/light.png"
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#9563FF",
-    "light": "#AE87FF",
-    "dark": "#0D001D",
+    "primary": "#F23556",
+    "light": "#F23556",
+    "dark": "#0E1117",
     "background": {
-      "dark": "#090014"
+      "dark": "#0E1117"
     },
     "anchors": {
-      "from": "#FF7F57",
-      "to": "#9563FF"
+      "from": "#F23",
+      "to": "#000"
     }
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Soporte",
+      "url": "gorka@iand.dev"
     }
   ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
-  },
   "tabs": [
+    {
+      "name": "Chatbot Streamlit",
+      "url": "chatbot-streamlit"
+    },
     {
       "name": "API Reference",
       "url": "api-reference"
@@ -36,24 +36,24 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "iand.dev",
+      "icon": "globe",
+      "url": "https://iand.dev"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "name": "GRKdev",
+      "icon": "github",
+      "url": "https://github/GRKdev"
     },
     {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "ChatBot Streamlit",
+      "icon": "comment",
+      "url": "https://grk-api.streamlit.app/"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Empezar",
       "pages": ["introduction", "quickstart", "development"]
     },
     {
@@ -75,8 +75,8 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "github": "https://github.com/GRKdev"
+  
   }
 }
+
